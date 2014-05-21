@@ -1,0 +1,7 @@
+
+    Install watchdog library from the link : http://pythonhosted.org/watchdog/installation.html (requires python 2.5 or above). Install using pip or source tarballs in /data/.
+    Create a folder python and save the python script attached with this email /data/python/watch_test_final.py
+    Create a dummy folder /data/monitorDir for a test run.
+    Open the script and change the variable dirPath  to the path of the dummy folder that is "/data/monitor". That will be at two places : a) initialiseFileDict() b) eventHandlerThread() (Once the script runs properly I will make the changes to give the path through command line)
+    Run the script by python watch_test_final.py (your pwd should be /data/python)
+    Run the script using command : python scriptname dirPath .extn
